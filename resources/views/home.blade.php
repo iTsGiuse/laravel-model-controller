@@ -1,13 +1,19 @@
 @extends('layouts.app')
 
+@section('title')
+    <title>HOME</title>
+@endsection
+
 @section('movies')
-    <div class="container">
-        <form action="movie">
-            <div class="row justify-content-center">
-                <div class="col">
-                    <button>GUARDA MOVIE</button>
+    <section id="movies">
+        <div class="container">
+            <form action="movie">
+                <div class="row text-center mt-5">
+                    <div class="col">
+                        <button>GUARDA MOVIE</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </section>
 @endsection
